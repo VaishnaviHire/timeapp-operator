@@ -1,0 +1,9 @@
+apiVersion: app.example.com/v1alpha1
+kind: NodeDaemon
+metadata:
+  name: example-nodedaemon
+spec:
+  label: ndaemon
+  image: docker.io/vaishnavihire/timeapp:lattest
+  size: 2
+
