@@ -4,6 +4,6 @@ metadata:
   name: example-nodedaemon
 spec:
   label: ndaemon
-  image: docker.io/vaishnavihire/timeapp:lattest
-  size: 2
+  image: docker.io/vaishnavihire/timeapp
+
 

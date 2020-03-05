@@ -16,7 +16,7 @@ spec:
       containers:
         - name: timeapp-operator
           # Replace this with the built image name
-          image: docker.io/vaishnavihire/timeapp-operator:upd9
+          image: docker.io/vaishnavihire/timeapp-operator:upd11
           command:
           - timeapp-operator
           imagePullPolicy: Always

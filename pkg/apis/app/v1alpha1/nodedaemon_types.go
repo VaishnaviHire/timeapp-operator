@@ -13,8 +13,8 @@ type NodeDaemonSpec struct {
 	// Important: Run "operator-sdk generate k8s" to regenerate code after modifying this file
 	// Add custom validation using kubebuilder tags: https://book-v1.book.kubebuilder.io/beyond_basics/generating_crd.html
 
-	Label string `json: "label"`
-	Image string `json: "image"`
+	Label string `json:"label"`
+	Image string `json:"image"`
 	//image string
 }
 
@@ -24,7 +24,7 @@ type NodeDaemonStatus struct {
 	// Important: Run "operator-sdk generate k8s" to regenerate code after modifying this file
 	// Add custom validation using kubebuilder tags: https://book-v1.book.kubebuilder.io/beyond_basics/generating_crd.html
 
-	Count int32 `json: "count"`
+	Count int32 `json:"count"`
 
 }
 
